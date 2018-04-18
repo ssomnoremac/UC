@@ -1,0 +1,37 @@
+{
+  "name": "universal-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/react": "^3.4.0",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "flow-bin": "^0.69.0",
+    "glamorous-native": "^1.4.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-native-web": "^0.5.4"
+  },
+  "peerDependencies": {
+    "prop-types": ">=15",
+    "react": ">=15",
+    "react-dom": ">=15",
+    "react-native": ">=0.42",
+    "react-native-web": ">=0.0.129"
+  },
+  "scripts": {
+    "storybook": "NODE_PATH=src start-storybook -p 9001 -c .storybook",
+    "build": "build-storybook"
+  },
+  "dependencies": {
+    "react-native": "^0.52.3"
+  }
+}
