@@ -86,13 +86,3 @@ export default class Card extends Component<CardProps, *> {
     );
   };
 }
-
-const query = `graphql{
-     query{
-         notes(orberBy: "date"){
-            text
-            date
-        }
-    }
-}
-`
